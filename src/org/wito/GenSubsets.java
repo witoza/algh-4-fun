@@ -2,7 +2,7 @@ package org.wito;
 
 public class GenSubsets {
 
-	private static void genAll(int[] arr, int i) {
+	public static void genAll(int[] arr, int i) {
 		if (arr.length == i) {
 			print(arr);
 			return;
@@ -24,10 +24,6 @@ public class GenSubsets {
 			str = str + " " + i;
 		}
 		System.out.println(str);
-	}
-
-	public static void main(String[] args) {
-		genAll(Utils.getIdentity(3), 0);
 	}
 
 }
