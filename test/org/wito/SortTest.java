@@ -1,7 +1,5 @@
 package org.wito;
 
-import java.util.Arrays;
-
 import junit.framework.Assert;
 
 import org.junit.Test;

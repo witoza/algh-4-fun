@@ -1,6 +1,14 @@
 package org.wito;
 
 public class BSearch {
+	public static int lowBound(int[] arr, int p, int q, int val) {
+		return -1;
+	}
+
+	public static int upperBound(int[] arr, int p, int q, int val) {
+		return -1;
+	}
+
 	public static int bSearch(int[] arr, int p, int q, int val) {
 
 		while (p <= q) {
